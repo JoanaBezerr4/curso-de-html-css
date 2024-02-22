@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: andoid;
+    src: url(../desafio10/IDroid\ Bold.otf) format('opentype');
+    display: swap;
+    font-weight: normal
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1#principal{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, #7CEA94, #1A662B );
+    min-height: 150px;
+    
+
+    
+}
+body{
+    background-color: #EBE5C5;
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px  4px black;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+header > h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+}
+h3#primeiro{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+}
+nav{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 5px;
+    padding: 1px;
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.575);
+}
+nav > a:hover{
+    background-color: #7CEA94;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+nav> a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    text-indent: 20px;
+    padding: 15px 0px;
+    line-height: 2em;
+}
+
+div{
+    background-color: #1A662B;
+    padding: 30px;
+    margin: 0px -50px 30px -50px;
+    position: relative;
+}
+
+div > iframe{
+    min-width: 320;
+    max-width: 560;
+    display: block;
+    margin: auto;
+    top: 15%;
+    left: 17%;
+    
+}
+
+aside{
+    background-color: #7CEA94;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+}
+aside > ul{
+    columns: 2;
+}
+
+aside > h3{
+    background-color: #069726;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+h2{
+    background-image: linear-gradient(to right,#1a662a93, #7cea94a6);
+    color: #012708;
+}
+h1#normal{
+    font-family: android, sans-serif;
+    
+}
+a{  
+    color: #005704;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+.link{
+    background-color: #7CEA94;
+    color: #056319;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 1px 1px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #1A662B;
+}
+
+footer{
+    background-color: #083f14;
+    color: white;
+    text-align: center; 
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #7CEA94;
+}

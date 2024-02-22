@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+}
+
+body{
+    background-image: linear-gradient(90deg, #69672fc5, #6b642ead);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #39803A;
+    text-shadow: 1px 1px 2px #617339;
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: #578A3F;
+}
+p{
+    text-align: justify;
+}
+.basico{
+    background-color: #39803A;
+    color: aliceblue;
+}
+.intermediario{
+    background-color: rgba(243, 243, 25, 0.575);
+}
+.avancado{
+    background-color: rgba(243, 58, 25, 0.575);
+}
+
+
+
+
+
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            text-align: justify;
+        }
+        nav{
+            background-color: aliceblue;
+            box-shadow: 1px 1px 20px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(105, 99, 89);
+            margin: 5px;
+            padding: 1px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        main{
+            background-color: blue;
+            border-radius: 10px
+
+        }
+        article{
+            background-color: green;
+        }
+        article> aside{
+            background-color: white;
+        }
+        footer{
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            
+            background-color: azure;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa a, nesciunt deserunt molestias assumenda officiis atque mollitia ad dicta quasi veritatis, delectus esse temporibus cumque similique debitis possimus, quaerat neque.</p>
+                <aside>Artigo feito por Joana Bezerra</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
