@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody >tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
+        <!--
+            THEAD
+                TD, TF, TH
+            TBODY
+                TD, TF, TH
+            TFOOT
+                TD, TF, TH
+        -->
+    <table>
+        <caption>População das unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 649</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>======</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla illum veniam blanditiis maxime explicabo necessitatibus id doloremque iure, eligendi consequuntur quod eos error sit dolore aliquid numquam voluptatum quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quaerat? Pariatur cum, placeat corrupti, ex, nisi odit aliquid cumque sit molestiae quibusdam nobis mollitia velit necessitatibus corporis consectetur? Tempore, saepe. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, quia eos fuga pariatur dolorem deserunt soluta magnam? Voluptate maxime quibusdam consectetur eum fugit, incidunt, explicabo perspiciatis cum unde enim deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora laudantium error, cumque hic reprehenderit asperiores consequuntur sint nemo magnam culpa nihil accusantium veritatis? Doloribus nihil maxime voluptates commodi vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit qui enim maiores tenetur exercitationem, nihil consequatur tempore temporibus voluptas id ipsa sunt sint nostrum quia nulla neque praesentium quidem veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ullam laudantium error, nemo ipsa perspiciatis quas sunt mollitia ex! Ab tenetur eos et quod nihil dolor inventore repudiandae? Iure, mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum ratione tempore maxime optio, quos nisi commodi, officia nobis tempora itaque corrupti ad nesciunt animi assumenda magnam consectetur ipsum necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt, facere fuga eveniet tenetur tempore, earum molestias error ex corporis sint quis vitae quo adipisci. Dolorem officiis in impedit atque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio laborum necessitatibus illo ratione. Delectus placeat, modi, nesciunt distinctio ipsa totam voluptatibus blanditiis sit quasi, adipisci libero repellendus odio in!</p>
 </body>
 </html>
