@@ -3,32 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Range Rover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Página de login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Range Rover</h1>
-        <nav>
-            <a href="#">Veículo</a>
-            <a href="#">Compras</a>
-            <a href="#">Contato</a>
-            <a href="#">Modelos</a>
-        </nav>
-    </header>
-    <main class="primeiro">
-    </main>
-    <section>
-        <h2>Range Rover</h2>
-        <p>
-            O modelo Range Rover oferece sofisticação e modernidade. Um luxo incomparável para cinco adultos, eficiência e um desempenho totalmente sustentável.</p>
+    
+        <div class="container" id="container">
 
-            <p>O Range Rover oferece uma versão híbrida elétrica e híbrida leve. Além de planos para um totalmente elétrico em 2024.
-            </p>
-    </section>
-    <main class="segundo">
-        <img src="fundo rangerover.jpg" alt="">
-        <p>Sua tecnologia foi concebida para facilitar a vida de seus usuários, desde uma série de funcionalidades de condução ao sistema de informação e entretenimento, o Pivi Pro.</p>
-    </main>
+             <div class="form-container sing-up">
+
+                
+                <form>
+                    <h1>Crie sua Conta</h1>
+                    <div class="social-icons">
+                        
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <span>Ou use seu email para cadastro</span>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <button>Sing up</button>
+             </div>
+             
+             <div class="form-container sing-in">
+
+                
+                <form>
+                    <h1>Sing in</h1>
+                    <div class="social-icons">
+                        
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <span>Ou use seu email e senha</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <a href="#">Esqueceu a senha?</a>
+                    <button>Sing in</button>
+             </div>
+        </div>
+        <div class="toogle-container">
+            <div class="toogle">
+                <div class="toogle-panel toogle-left">
+                    <h1>Bem vindo Novamente!</h1>
+                    <p>Cadastre seus dados para utilizar das ferramentas do nosso site</p>
+                    <button class="hidden" id="login">Sing In</button>
+                </div>
+                <div class="toogle">
+                    <div class="toogle-panel toogle-right">
+                        <h1>Olá! Seja Bem-vindo</h1>
+                        <p>Registre seus dados para utilizar das ferramentas do nosso site</p>
+                        <button class="hidden" id="register">Sing up</button>
+
+            </div>
+
+        </div>
+
+                
+
+
+
+    <script src="script.js"></script>
 </body>
-</html>
