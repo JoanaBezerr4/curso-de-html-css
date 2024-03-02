@@ -23,6 +23,26 @@
             border-radius: 4px;
             
         }
+        div{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            font-size: 1.2em;
+            font-weight: 700px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid black;
+            background-color: palevioletred;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
+        }
+        #Btn:hover{
+            transform: transLateY(-10px);
+        }
     </style>
 </head>
 <body>
@@ -33,6 +53,7 @@
             <input type="text" name="nome" id="nome" placeholder="Nome">
             <input type="submit" value="cadastrar" id="submit">
         </p>
+        <div><button id="Btn">Visite!</button></div>
     </form>
 </body>
-</html>
+</htm
