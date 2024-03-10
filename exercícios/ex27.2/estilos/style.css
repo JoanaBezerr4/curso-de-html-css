@@ -10,36 +10,58 @@ body{
 }
 header{
     background-color: gray;
-    padding: 10px;
+    
 }
 header h1{
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
     padding-bottom: 20px;
 }
-header a{
-    background-color: rgb(70, 66, 66);
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    margin: 5px;
+menu{
+    display: none;
 }
-header a:hover{
+menu ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:  rgb(70, 66, 66);
+    color: white;
+    border-top: 2px solid rgb(168, 168, 168);
+}
+menu a:hover{
     background-color: rgb(168, 167, 167);
 }
+
 main{
-    display: block;
     border-radius: 15px;
     background-color: white;
-    width: 600px;
+    width: 90vw;
     padding: 15px;
     margin: auto;
+    margin-top: 10px;
 
 }
 main h2{
     padding-bottom: 15px;
 }
 main p{
+    text-align: justify;
     padding-bottom: 20px;
     text-indent: 10px;
+}
+i#burguer{
+    background-color: rgb(46, 45, 45);
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+i#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
