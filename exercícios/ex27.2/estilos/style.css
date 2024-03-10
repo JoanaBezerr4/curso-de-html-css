@@ -16,6 +16,7 @@ header h1{
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 menu{
     display: none;
@@ -61,7 +62,7 @@ i#burguer{
     padding: 10px;
 }
 i#burguer:hover{
-    background-color: white;
+    background-color: rgb(165, 164, 164);
     color: black;
     cursor: pointer;
 }
