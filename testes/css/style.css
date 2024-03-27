@@ -102,7 +102,7 @@ div.grid-11 p{
 .imagens-secao-1{
   position: relative;
   left: 800px;
-  top: -530px;
+  top: -690px;
 }
 /*fim da secao 1*/
 
@@ -121,6 +121,7 @@ img.grid-8{
   margin-top: 109px;
   position: relative;
   left: 200px;
+
 }
 h2.grid-8{
   position: relative;
@@ -250,6 +251,10 @@ p.grid-8{
   top: 120px;
 
 }
+.secao-4 button:hover{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.747));
+}
+
 .secao-4 .lista{
   position: relative;
   left: 320px;
@@ -282,11 +287,213 @@ p.grid-8{
   color: orange;
 }
 
-
-
-
-
-
-
 /*fim da secao 4*/
 
+/*secao 5*/
+.secao-5 h2{
+  text-align: center;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.secao-5 span{
+  color: rgb(211, 211, 3);
+}
+.secao-5 iframe{
+  width: 100%;
+  height: 500px;
+}
+
+
+/*fim da secao 5*/
+
+/* secao 6*/
+
+.secao-6{
+  height: 800px;
+}
+.secao-6 h2{
+  font-family: "Poppins";
+  text-transform: uppercase;
+  padding-top: 30px;
+
+}
+.cor{
+  color: orange;
+}
+.secao-6 span{
+  color: rgb(211, 211, 3);
+}
+.secao-6 h2{
+  position: relative;
+  left: 300px;
+  top: 70px;
+}
+.secao-6 .meio{
+  position: relative;
+  left: 300px;
+  top: 80px;
+}
+.secao-6 button{
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to top, rgb(34, 164, 245), rgb(113, 189, 236));
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  position: relative;
+  left: 300px;
+  top: 110px;
+}
+.secao-6 button:hover{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.747));
+}
+
+.contato{
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+.contato p{
+  padding: 10px;
+}
+.contato h3{
+  padding-top: 20px;
+  color: rgb(75, 75, 214);
+}
+.secao-6 img{
+  height: 380px;
+  position: relative;
+  left: 770px;
+  top: -290px;
+}
+
+/*fim da secao 6*/
+
+/*secao 7*/
+.secao-7{
+  height: 1600px;
+  background-image: url(../img/depoimento.jpg);
+  background-position: center center;
+}
+.secao-7 h2{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.foto1{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 320px;
+  border-radius: 10px;
+}
+
+.foto2{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 580px;
+  top: -369px;
+  border-radius: 10px;
+}
+
+.foto3{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 840px;
+  top: -739px;
+  border-radius: 10px;
+}
+
+.foto4{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 320px;
+  top: -720px;;
+  border-radius: 10px;
+}
+
+.foto5{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 580px;
+  top: -1088px;
+  border-radius: 10px;
+}
+
+.foto6{
+  color: white;
+  background-color: rgba(9, 9, 82, 0.555);
+  width: 220px;
+  height: 340px;
+  padding: 15px;
+  position: relative;
+  left: 840px;
+  top: -1455px;
+  border-radius: 10px;
+}
+.secao-7 img{
+  width: 90px;
+  background-size: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.secao-7 h3{
+ padding: 10px;
+}
+
+.garantia{
+
+}
+
+.garantiu{
+  position: relative;
+  top: -1200;
+}
+
+.ultimo-botao{
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to top, rgb(34, 164, 245), rgb(113, 189, 236));
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  position: relative;
+  left: 540px;
+  top: -1000px;
+}
+
+.ultimo-botao:hover{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.747));
+}
+
+/*fim da secao 7*/
