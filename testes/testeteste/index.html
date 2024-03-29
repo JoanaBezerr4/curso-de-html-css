@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(117, 163, 165);
+            height: 60px;
+            padding: 10px;
+            display: flex;
+        }
+        .logo{
+            color: white;
+            width: 100%;
+            font-size: 20px;
+        }
+        .menu{
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 100%;
+            height: 150px;
+            overflow: hidden;
+            text-align: center;
+            opacity: 0;
+            background-color: rgb(37, 164, 168);
+        }
+        .show{
+            transition: 1s;
+            opacity: 1s;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            font-size: 20px;
+        }
+        .menu a:hover{
+            text-decoration: underline;
+        }
+        .icon-menu svg{
+            width: 50%;
+            color: antiquewhite;
+            cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Joana Bezerra</div>
+        <div class="icon-menu"><a href="#"><span class="material-icons">
+            menu
+            </span></a></div>
+        <div class="menu">
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Home</a>
+        </div>
+    </header>
+
+    <script>
+        var iconeM = document.getElementById('icon-menu')
+        iconeM.addEventListener('click', ()=>{
+            window.alert('clicou');
+        })
+    </script>
+</body>
+</html>

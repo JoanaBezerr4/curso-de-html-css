@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Poppins:wght@400;700&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-image: url(../img/pexels-muffin-creatives-2468773.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+
+}
+.text{
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+#cor{
+    color: white;
+}
+span{
+    color: rgb(68, 173, 68);
+}
+.formulario{
+    text-align: center;
+    font-family: "Poppins";
+}
+.formulario h5{
+    position: relative;
+    top: 10px;
+    
+}
+.botao{
+    padding: 10px;
+    width: 340px;
+    color: white;
+    background-color: rgb(68, 173, 68);
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.425), rgb(53, 51, 51));
+}
+.rodape{
+    position: relative;
+    left: 150px;
+    top: 40px;
+    font-family: "Poppins";
+}
+#imail{
+    border-radius: 8px;
+    height: 50px;
+    width: 340px;
+    position: relative;
+    top: 20px;
+}

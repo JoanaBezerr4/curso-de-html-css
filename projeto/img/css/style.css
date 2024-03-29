@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Poppins:wght@400;700&family=Sriracha&display=swap');
+
+
+html{
+    background-image: url(../img/pexels-google-deepmind-17483867.jpg);
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Poppins";
+}
+.primeiro{
+    background-color: white;
+    width: 650px;
+    padding: 20px;
+    height: 420px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+    border-radius: 10px;
+
+}
+.primeiro h2{
+    color: rgba(37, 163, 163, 0.699);
+}
+.primeiro h4{
+    color: rgb(137, 216, 17);
+}
+.primeiro p{
+    color: gray;
+}
+.segundo{
+    background-color:rgb(60, 165, 167);
+    width: 325px;
+    position: relative;
+    left: 306px;
+    top: -141px;
+    padding: 10px;
+    border-radius: 0px 0px 0px 10px;
+    color: white;
+    height: 236px;
+}
+.segundo h3{
+    position: relative;
+    top: -10px;
+    left:50px;
+}
+.segundo h2{
+    position: relative;
+    left: 50px;
+    top: -40px;
+    font-size: 45px;
+}
+.segundo h4{
+    position: relative;
+    left: 150px;
+    top: -120px;
+    color: rgb(10, 71, 71);
+}
+.segundo p{
+    position: relative;
+    left: 40px;
+    top: -120px;
+}
+.segundo button{
+    position: relative;
+    left: 35px;
+    height: 55px;
+    top: -120px;
+    width: 260px;
+    color: white;
+    background-color: rgb(137, 216, 17);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 6px black;
+}
+.segundo button:hover{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+.terceiro{
+    background-color:  rgb(60, 181, 186);
+    width: 325px;
+    position: relative;
+    left: 651px;
+    top: -397px;
+    padding: 10px;
+    height: 236px;
+    border-radius: 0px 0px 10px 0px;
+    color: white;
+}
+.terceiro h3{
+    position: relative;
+    left: 40px;
+    top: -10px;
+    font-size: 20px;
+}
+.terceiro p{
+    position: relative;
+    left: 40px;
+}
+
